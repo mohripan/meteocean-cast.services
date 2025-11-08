@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteocean.Services", "Meteocean.Services\Meteocean.Services.csproj", "{5206247E-7DFA-44E9-8C6C-14A1BBBE099C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meteocean.Services.Test", "Meteocean.Services.Test\Meteocean.Services.Test.csproj", "{9B039B30-FCCA-4A26-A12C-806F20CE7C1A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5206247E-7DFA-44E9-8C6C-14A1BBBE099C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5206247E-7DFA-44E9-8C6C-14A1BBBE099C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5206247E-7DFA-44E9-8C6C-14A1BBBE099C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5206247E-7DFA-44E9-8C6C-14A1BBBE099C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B039B30-FCCA-4A26-A12C-806F20CE7C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B039B30-FCCA-4A26-A12C-806F20CE7C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B039B30-FCCA-4A26-A12C-806F20CE7C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B039B30-FCCA-4A26-A12C-806F20CE7C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
