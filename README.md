@@ -6,8 +6,8 @@ A cloud-agnostic contracts library for metocean microservices:
 - **Message topic** constants
 - Minimal **System.Text.Json** converters for compact time-series arrays
 
-Targets **.NET 8.0** and **.NET 6.0**.
+Targets **.NET 8.0**.
 
-## Install (after publishing to NuGet)
+## Install
 ```powershell
 dotnet add package Meteocean.Services
