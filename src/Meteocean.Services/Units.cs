@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Meteocean.Services
+﻿namespace Meteocean.Services
 {
     /// <summary>Canonical units used in normalized series.</summary>
     public static class Units
